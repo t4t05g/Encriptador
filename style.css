@@ -449,9 +449,9 @@ main {
 
 .txt-section-der {
     width: 60%;
-    margin-left: 9%;
-    top: 88%;
-    position: absolute;
+    margin-left: 15%;
+    top: -145px;
+    position: relative;
     z-index: 3;
 }
 
