@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <main>
+        <section class="section_izquierda">
+            <div class='alert'>
+                <div class="subalert0">IMPORTANTE!</div>
+                <div class="subalert1"><p>Ups! Aquí no hay mensaje. Ingresa un mensaje para poder procesarlo.</p></div>
+                <div class="subalert2"><button type='button' class='btn-alert' onclick='cierra()'>Entendido!</button></div>
+            </div>
+            <img class="logo" src="images/aluraoracle.png" alt="Logo">
+            <textarea id="txtarea1" class="text-areaiz" cols="30" rows="10" placeholder="Ingresa tu mensaje aquí..."></textarea>
+            <div class="informacion">Solo letras minúsculas. Los acentos seran quitados.</div>
+            <div class="botonera">
+                <button class="btn-encrip" onclick="encripta()">Encriptar</button>
+                <button class="btn-desencrip" onclick="desencripta()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="section_derecha">
+            <div class="contenedor_textarea_derecha"><textarea class="text-areader" cols="20" rows="10" id="resultado"></textarea><div class="fondo_copiar"></div><img src="/images/zzz.gif" class="zzz" alt="zzz"/></div>
+            <div class="txt-section-der">
+                <div>
+                    <p class="txt-section-der01">Hey! Estamos esperando tu mensaje</p>
+                </div>
+                <div>
+                    <p class="txt-section-der02">Ingresa el texto que deseas encriptar o desencriptar.</p>
+                </div>
+            </div>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
