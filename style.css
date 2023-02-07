@@ -450,7 +450,7 @@ main {
 .txt-section-der {
     width: 60%;
     margin-left: 15%;
-    top: -145px;
+    top: -9.5vh;
     position: relative;
     z-index: 3;
 }
@@ -643,7 +643,7 @@ main {
     .txt-section-der {
         width: 60%;
         margin-left: 15%;
-        top: 92%;
+        top: 91vh;
         position: absolute;
     }
 
